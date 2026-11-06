@@ -1,0 +1,30 @@
+# 锁与临时文件
+*.lock
+
+# 备份
+*.bak
+*.bak-*
+backups/
+
+# 依赖与缓存，可再生
+node_modules/
+icons/
+plugin-icons.json
+plugin-updates.json
+
+# 运行时状态与统计日志
+stash.json
+served.json
+stats-sent
+balance-history.json
+quota-history.json
+usage.jsonl
+routing/*.jsonl
+routing/*.jsonl.gz
+
+# 本机标识与登录态，跨机器无意义
+install-id
+last-version
+cli-identity.json
+zcode-device-mid
+logins.json
